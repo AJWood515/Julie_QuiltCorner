@@ -1,0 +1,23 @@
+/* CSS Document */
+body {
+  background-color: grey;
+  background-image: url("../../Pics/backgroundQuilt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.media {
+  border: 1px black solid;
+  border-radius: 20px;
+  background: white;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(to left, white, #717D7E);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to left, white, #717D7E);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to left, white, #717D7E);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, white, #717D7E);
+  /* Standard syntax (must be last) */
+  margin-left: 20px; }
+
+/*# sourceMappingURL=SuperiorThreadsDisplay.css.map */

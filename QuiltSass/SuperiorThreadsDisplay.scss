@@ -1,0 +1,14 @@
+@import 'MixinGradient';
+
+body{
+  background-color: grey;
+  background-image: url("../../Pics/backgroundQuilt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.media {
+  border: 1px black solid;
+  border-radius: 20px;
+  @include verticalGradient(to left, white, #717D7E);
+  margin-left: 20px;
+}
